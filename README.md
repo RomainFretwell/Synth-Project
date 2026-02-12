@@ -1,12 +1,6 @@
 # Synth-Project
 L'objectif est de concevoir un synthétiseur avec de nombreux paramètres pour modifier le son. Le synthé sera contrôlable via un signal MIDI envoyé par un clavier ou un ordinateur. 
 
-# TODO
-- [ ]  Montage octocoupleur + condensateur (vérifier pas de clic)
-- [ ]  Test remplacer VCR par MOSFET (saw generator)… plus stable ?
-- [ ]  Trouver générateur plus stable (sinus si possible)
-- [ ]  Commander multiplexeur
-
 # Cahier des Charges
 - Synthétiseur monophonique
 - 4 formes d'onde de bases pouvant être mixés
@@ -27,3 +21,11 @@ L'objectif est de concevoir un synthétiseur avec de nombreux paramètres pour m
 - Wavefolder (1 potard + LED)
 - Unisson pour signal triangle et carré (avec LFO)
 - Plusieurs LFO pour volume (tremolo), unisson, filtre, wavefolder, type de son? (2 potards + LED chacun)
+
+# TODO
+[]  Tester
+[x]  Testo
+- [X]  Montage octocoupleur + condensateur (vérifier pas de clic)
+- [ ]  Test remplacer VCR par MOSFET (saw generator)… plus stable ?
+- [ ]  Trouver générateur plus stable (sinus si possible)
+- [ ]  Commander multiplexeur
