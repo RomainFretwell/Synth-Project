@@ -23,9 +23,8 @@ L'objectif est de concevoir un synthétiseur avec de nombreux paramètres pour m
 - Plusieurs LFO pour volume (tremolo), unisson, filtre, wavefolder, type de son? (2 potards + LED chacun)
 
 # TODO
-[]  Tester
-[x]  Testo
-- [X]  Montage octocoupleur + condensateur (vérifier pas de clic)
+- [ ]  Recopier schémas sur KiCad
+- [ ]  Montage octocoupleur + condensateur (vérifier pas de clic)
 - [ ]  Test remplacer VCR par MOSFET (saw generator)… plus stable ?
 - [ ]  Trouver générateur plus stable (sinus si possible)
 - [ ]  Commander multiplexeur
