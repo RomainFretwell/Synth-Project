@@ -1,6 +1,6 @@
 LTspice 24.1.9 for Windows
-Circuit: C:\Users\Romain\Desktop\Old Synth Project\LTspice\filtre_ordre_2\filtre_ordre_2_resonance.net
-Start Time: Mon Feb 16 18:47:23 2026
+Circuit: C:\Users\Romain\Desktop\Synth-Project\Schematics\saw_to_triangle\saw_to_triangle.net
+Start Time: Mon Mar 23 19:10:45 2026
 solver = Normal
 Maximum thread count: 12
 tnom = 27
@@ -50,9 +50,10 @@ Source Step = 63.6364%
 Source Step = 93.9394%
 Source stepping succeeded in finding the operating point.
 
-Total elapsed time: 0.607 seconds.
+Total elapsed time: 1.251 seconds.
 
 Files loaded:
-C:\Users\Romain\Desktop\Old Synth Project\LTspice\filtre_ordre_2\filtre_ordre_2_resonance.net
+C:\Users\Romain\Desktop\Synth-Project\Schematics\saw_to_triangle\saw_to_triangle.net
+C:\Users\Romain\AppData\Local\LTspice\lib\cmp\standard.dio
 C:\Users\Romain\AppData\Local\LTspice\lib\sub\LTC.lib
 

@@ -21,7 +21,3 @@ L'objectif est de concevoir un synthétiseur avec de nombreux paramètres pour m
 - Wavefolder (1 potard + LED)
 - Unisson pour signal triangle et carré (avec LFO)
 - Plusieurs LFO pour volume (tremolo), unisson, filtre, wavefolder, type de son? (2 potards + LED chacun)
-
-# TODO
-- [ ]  Montage octocoupleur + condensateur (vérifier pas de clic)
-- [ ]  Test remplacer VCR par MOSFET (dans saw generator), fréquence plus stable ?

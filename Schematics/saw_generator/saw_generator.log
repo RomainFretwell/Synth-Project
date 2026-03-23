@@ -1,0 +1,6 @@
+LTspice 24.1.9 for Windows
+Circuit: C:\Users\Romain\Desktop\Synth-Project\Simulations LTspice\saw_generator\saw_generator.net
+Start Time: Mon Mar 23 18:07:08 2026
+C:\Users\Romain\Desktop\Synth-Project\Simulations LTspice\saw_generator\saw_generator.net(5): This sub-circuit name is not defined.
+X§X1 N005 N003 VCC 0 CD40106B CD40106B
+                             ^^^^^^^^^
