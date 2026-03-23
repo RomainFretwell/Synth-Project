@@ -1,0 +1,26 @@
+Version 4
+SymbolType CELL
+LINE Normal 48 0 32 -8
+LINE Normal 16 16 48 0
+LINE Normal 48 32 16 16
+LINE Normal 16 48 48 32
+LINE Normal 32 56 16 48
+LINE Normal 48 64 32 56
+LINE Normal 32 72 48 64
+LINE Normal 32 -16 32 -8
+LINE Normal 32 72 32 80
+LINE Normal 72 24 64 32
+LINE Normal 72 40 64 32
+LINE Normal 96 32 64 32
+WINDOW 0 64 -16 Left 0
+SYMATTR Description potentiometer
+SYMATTR SpiceLine R = 20k val = 50
+PIN 32 -16 NONE 0
+PINATTR PinName 1
+PINATTR SpiceOrder 1
+PIN 32 80 NONE 0
+PINATTR PinName 3
+PINATTR SpiceOrder 3
+PIN 96 32 NONE 8
+PINATTR PinName 2
+PINATTR SpiceOrder 2

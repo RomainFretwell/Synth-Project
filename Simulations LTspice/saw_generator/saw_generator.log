@@ -1,0 +1,295 @@
+LTspice 24.1.9 for Windows
+Circuit: C:\Users\Romain\Desktop\Synth-Project\Simulations LTspice\saw_generator\saw_generator.net
+Start Time: Mon Mar 23 02:11:16 2026
+C:\Users\Romain\Desktop\Synth-Project\Simulations LTspice\saw_generator\saw_generator.net(5): Sub-circuit name listed twice. This is most likely because the corresponding symbol contains the name in more than one attribute.
+X§X1 N006 N003 VCC 0 CD40106B CD40106B
+                             ^^^^^^^^^
+C:\Users\Romain\Desktop\Synth-Project\Simulations LTspice\saw_generator\CD40106B.lib(132): Note: The caret character means exponentiation in this context. If you wish to silence this warning, use the "**" operator instead or add ".OPTIONS NO_CARET_WARNING" to your netlist.
++ 2*MAXICC*((V(IN,VEE)-VT)/V(VCC,VEE))^2)*(1 + SGN(V(VCC,VEE) - VCC_MIN))*V(VSWITCH,VEE)}
+                                      ^
+C:\Users\Romain\Desktop\Synth-Project\Simulations LTspice\saw_generator\CD40106B.lib(134): Note: The caret character means exponentiation in this context. If you wish to silence this warning, use the "**" operator instead or add ".OPTIONS NO_CARET_WARNING" to your netlist.
++ 2*MAXICC*((V(IN,VEE)-VT)/V(VCC,VEE))^2)*(1 + SGN(V(VCC,VEE) - VCC_MIN))*V(VSWITCH,VEE)}
+                                      ^
+C:\Users\Romain\Desktop\Synth-Project\Simulations LTspice\saw_generator\CD40106B.lib(136): Note: The caret character means exponentiation in this context. If you wish to silence this warning, use the "**" operator instead or add ".OPTIONS NO_CARET_WARNING" to your netlist.
++ 2*MAXICC*((V(IN,VEE)-(V(VCC,VEE)-VT))/V(VCC,VEE))^2)*(1 + SGN(V(VCC,VEE) - VCC_MIN))*V(VSWITCH1,VEE)}
+                                                   ^
+C:\Users\Romain\Desktop\Synth-Project\Simulations LTspice\saw_generator\CD40106B.lib(138): Note: The caret character means exponentiation in this context. If you wish to silence this warning, use the "**" operator instead or add ".OPTIONS NO_CARET_WARNING" to your netlist.
++ 2*MAXICC*((V(IN,VEE)-(V(VCC,VEE)-VT))/V(VCC,VEE))^2)*(1 + SGN(V(VCC,VEE) - VCC_MIN))*V(VSWITCH1,VEE)}
+                                                   ^
+C:\Users\Romain\Desktop\Synth-Project\Simulations LTspice\saw_generator\CD40106B.lib(132): Note: The caret character means exponentiation in this context. If you wish to silence this warning, use the "**" operator instead or add ".OPTIONS NO_CARET_WARNING" to your netlist.
++ 2*MAXICC*((V(IN,VEE)-VT)/V(VCC,VEE))^2)*(1 + SGN(V(VCC,VEE) - VCC_MIN))*V(VSWITCH,VEE)}
+                                      ^
+C:\Users\Romain\Desktop\Synth-Project\Simulations LTspice\saw_generator\CD40106B.lib(134): Note: The caret character means exponentiation in this context. If you wish to silence this warning, use the "**" operator instead or add ".OPTIONS NO_CARET_WARNING" to your netlist.
++ 2*MAXICC*((V(IN,VEE)-VT)/V(VCC,VEE))^2)*(1 + SGN(V(VCC,VEE) - VCC_MIN))*V(VSWITCH,VEE)}
+                                      ^
+C:\Users\Romain\Desktop\Synth-Project\Simulations LTspice\saw_generator\CD40106B.lib(136): Note: The caret character means exponentiation in this context. If you wish to silence this warning, use the "**" operator instead or add ".OPTIONS NO_CARET_WARNING" to your netlist.
++ 2*MAXICC*((V(IN,VEE)-(V(VCC,VEE)-VT))/V(VCC,VEE))^2)*(1 + SGN(V(VCC,VEE) - VCC_MIN))*V(VSWITCH1,VEE)}
+                                                   ^
+C:\Users\Romain\Desktop\Synth-Project\Simulations LTspice\saw_generator\CD40106B.lib(138): Note: The caret character means exponentiation in this context. If you wish to silence this warning, use the "**" operator instead or add ".OPTIONS NO_CARET_WARNING" to your netlist.
++ 2*MAXICC*((V(IN,VEE)-(V(VCC,VEE)-VT))/V(VCC,VEE))^2)*(1 + SGN(V(VCC,VEE) - VCC_MIN))*V(VSWITCH1,VEE)}
+                                                   ^
+solver = Normal
+Maximum thread count: 12
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-05
+Gmin = 1.6455e-06
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+Gmin = 1.17014e-06
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+Gmin = 1.1432e-06
+vernier = 0.00195312
+vernier = 0.000976562
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 78.7997%
+vernier = 0.000976562
+Source Step = 78.8175%
+Source Step = 78.8471%
+Source Step = 78.8767%
+Source Step = 78.9062%
+Source Step = 78.9358%
+vernier = 0.00146484
+Source Step = 78.9773%
+Source Step = 79.0217%
+Source Step = 79.0661%
+Source Step = 79.1104%
+Source Step = 79.1548%
+vernier = 0.00219727
+Source Step = 79.2148%
+Source Step = 79.2813%
+Source Step = 79.3479%
+Source Step = 79.4145%
+Source Step = 79.4811%
+vernier = 0.0032959
+Source Step = 79.5676%
+Source Step = 79.6675%
+Source Step = 79.7674%
+Source Step = 79.8673%
+Source Step = 79.9672%
+Source Step = 80.067%
+Source Step = 80.1669%
+Source Step = 80.2668%
+Source Step = 80.3667%
+Source Step = 80.4665%
+vernier = 0.00494385
+Source Step = 80.5964%
+Source Step = 80.72%
+Source Step = 80.7574%
+Source Step = 80.7949%
+Source Step = 80.8323%
+Source Step = 80.8698%
+Source Step = 80.9072%
+vernier = 0.00185394
+Source Step = 80.9597%
+Source Step = 81.0158%
+Source Step = 81.072%
+Source Step = 81.1282%
+Source Step = 81.1844%
+vernier = 0.00278091
+Source Step = 81.2602%
+Source Step = 81.3445%
+Source Step = 81.4288%
+Source Step = 81.513%
+Source Step = 81.5973%
+vernier = 0.00417137
+Source Step = 81.7069%
+Source Step = 81.8333%
+Source Step = 81.9597%
+Source Step = 82.0861%
+Source Step = 82.2125%
+vernier = 0.00625706
+Source Step = 82.3705%
+Source Step = 82.5601%
+Source Step = 82.7023%
+Source Step = 82.7497%
+Source Step = 82.7971%
+Source Step = 82.8445%
+Source Step = 82.8919%
+Source Step = 82.9393%
+vernier = 0.0023464
+Source Step = 83.008%
+Source Step = 83.0791%
+Source Step = 83.1503%
+Source Step = 83.2214%
+Source Step = 83.2925%
+vernier = 0.00351959
+Source Step = 83.392%
+Source Step = 83.4987%
+Source Step = 83.6053%
+Source Step = 83.712%
+Source Step = 83.8186%
+vernier = 0.00527939
+Source Step = 83.9626%
+Source Step = 84.1226%
+Source Step = 84.2826%
+Source Step = 84.4425%
+Source Step = 84.6025%
+vernier = 0.00791909
+Source Step = 84.8105%
+Source Step = 85.0505%
+Source Step = 85.2904%
+Source Step = 85.5304%
+Source Step = 85.7704%
+vernier = 0.0118786
+Source Step = 86.0704%
+Source Step = 86.4303%
+Source Step = 86.7903%
+Source Step = 87.1502%
+Source Step = 87.5102%
+vernier = 0.0178179
+Source Step = 87.9421%
+Source Step = 88.4821%
+Source Step = 89.022%
+Source Step = 89.562%
+Source Step = 90.1019%
+Source Step = 90.1289%
+Source Step = 90.1626%
+Source Step = 90.1964%
+Source Step = 90.2301%
+Source Step = 90.2639%
+Source Step = 90.2976%
+Source Step = 90.3314%
+Source Step = 90.3651%
+Source Step = 90.3989%
+Source Step = 90.4326%
+Source Step = 90.4664%
+Source Step = 90.5001%
+Source Step = 90.5338%
+Source Step = 90.5676%
+Source Step = 90.6013%
+Source Step = 90.6351%
+Source Step = 90.6688%
+Source Step = 90.7026%
+Source Step = 90.7363%
+Source Step = 90.7701%
+Source Step = 90.8038%
+Source Step = 90.8376%
+Source Step = 90.8713%
+Source Step = 90.9051%
+Source Step = 90.9388%
+Source Step = 90.9725%
+Source Step = 91.0063%
+Source Step = 91.04%
+Source Step = 91.0738%
+Source Step = 91.1075%
+Source Step = 91.1413%
+Source Step = 91.175%
+Source Step = 91.2088%
+Source Step = 91.2425%
+Source Step = 91.2763%
+Source Step = 91.31%
+Source Step = 91.3438%
+Source Step = 91.3775%
+Source Step = 91.4112%
+Source Step = 91.445%
+Source Step = 91.4787%
+Source Step = 91.5125%
+Source Step = 91.5462%
+Source Step = 91.58%
+Source Step = 91.6137%
+Source Step = 91.6475%
+Source Step = 91.6812%
+Source Step = 91.715%
+Source Step = 91.7487%
+Source Step = 91.7825%
+Source Step = 91.8162%
+Source Step = 91.8499%
+Source Step = 91.8837%
+Source Step = 91.9174%
+Source Step = 91.9512%
+Source Step = 91.9849%
+Source Step = 92.0187%
+Source Step = 92.0524%
+Source Step = 92.0862%
+Source Step = 92.1199%
+Source Step = 92.1537%
+Source Step = 92.1874%
+Source Step = 92.2212%
+Source Step = 92.2549%
+Source Step = 92.2886%
+Source Step = 92.3224%
+Source Step = 92.3561%
+Source Step = 92.3899%
+Source Step = 92.4236%
+Source Step = 92.4574%
+Source Step = 92.4911%
+Source Step = 92.5249%
+Source Step = 92.5586%
+Source Step = 92.5924%
+Source Step = 92.6261%
+Source Step = 92.6599%
+Source Step = 92.6936%
+Source Step = 92.7273%
+Source Step = 92.7611%
+Source Step = 92.7948%
+Source Step = 92.8286%
+Source Step = 92.8623%
+Source Step = 92.8961%
+Source Step = 92.9298%
+Source Step = 92.9636%
+Source Step = 92.9973%
+Source Step = 93.0311%
+Source Step = 93.0648%
+Source Step = 93.0986%
+Source Step = 93.1323%
+Source Step = 93.166%
+Source Step = 93.1998%
+Source Step = 93.2335%
+Source Step = 93.2673%
+Source Step = 93.301%
+Source Step = 93.3348%
+Source Step = 93.3685%
+Source Step = 93.4023%
+Source Step = 93.436%
+Source Step = 93.4698%
+Source Step = 93.5035%
+Source Step = 93.5372%
+Source Step = 93.571%
+Source Step = 93.6047%
+Source Step = 93.6385%
+Source Step = 93.6722%
+Source Step = 93.706%
+Source Step = 93.7397%
+Source Step = 93.7735%
+Source Step = 93.8072%
+Source Step = 93.841%
+Source Step = 93.8747%
+Source Step = 93.9085%
+Source Step = 93.9422%
+Source Step = 93.9759%
+Source Step = 94.0097%
+Source Step = 94.0434%
+Trouble finding operating point....skipping operating point for Transient analysis.
+
+Simulation stopped by user.
+Total elapsed time: 7.045 seconds.
+
+Files loaded:
+C:\Users\Romain\Desktop\Synth-Project\Simulations LTspice\saw_generator\saw_generator.net
+C:\Users\Romain\AppData\Local\LTspice\lib\cmp\standard.dio
+C:\Users\Romain\AppData\Local\LTspice\lib\cmp\standard.bjt
+C:\Users\Romain\Desktop\Synth-Project\Simulations LTspice\saw_generator\CD40106B.lib
+C:\Users\Romain\AppData\Local\LTspice\lib\sub\UniversalOpAmp1.lib
+
