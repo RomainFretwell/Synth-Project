@@ -1,6 +1,6 @@
 LTspice 24.1.9 for Windows
 Circuit: C:\Users\Romain\Desktop\Synth-Project\Schematics\wave_folder\wave_folder.net
-Start Time: Thu Apr  2 02:54:45 2026
+Start Time: Thu Apr  2 12:36:41 2026
 solver = Normal
 Maximum thread count: 12
 tnom = 27
@@ -51,7 +51,7 @@ Source Step = 63.6364%
 Source Step = 93.9394%
 Source stepping succeeded in finding the operating point.
 
-Total elapsed time: 1.763 seconds.
+Total elapsed time: 1.336 seconds.
 
 Files loaded:
 C:\Users\Romain\Desktop\Synth-Project\Schematics\wave_folder\wave_folder.net
